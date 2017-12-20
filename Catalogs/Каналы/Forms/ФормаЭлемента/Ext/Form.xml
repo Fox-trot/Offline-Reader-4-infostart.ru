@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<InputField name="Наименование" id="3">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Парсер" id="5">
+			<DataPath>Объект.Парсер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПарсерКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ПарсерРасширеннаяПодсказка" id="22"/>
+		</InputField>
+		<InputField name="ГиперссылкаПубликации" id="18">
+			<DataPath>Объект.Гиперссылка</DataPath>
+			<MultiLine>false</MultiLine>
+			<ContextMenu name="ГиперссылкаПубликацииКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ГиперссылкаПубликацииРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<Table name="Ссылки" id="9">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Гиперссылки</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СсылкиКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="СсылкиКоманднаяПанель" id="11"/>
+			<ExtendedTooltip name="СсылкиРасширеннаяПодсказка" id="24"/>
+			<SearchStringAddition name="СсылкиСтрокаПоиска" id="25">
+				<AdditionSource>
+					<Item>Ссылки</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СсылкиСтрокаПоискаКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="СсылкиСтрокаПоискаРасширеннаяПодсказка" id="27"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СсылкиСостояниеПросмотра" id="28">
+				<AdditionSource>
+					<Item>Ссылки</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СсылкиСостояниеПросмотраКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="СсылкиСостояниеПросмотраРасширеннаяПодсказка" id="30"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СсылкиУправлениеПоиском" id="31">
+				<AdditionSource>
+					<Item>Ссылки</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СсылкиУправлениеПоискомКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="СсылкиУправлениеПоискомРасширеннаяПодсказка" id="33"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СсылкиНомерСтроки" id="12">
+					<DataPath>Объект.Гиперссылки.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СсылкиНомерСтрокиКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="СсылкиНомерСтрокиРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<InputField name="СсылкиУРЛ" id="14">
+					<DataPath>Объект.Гиперссылки.Гиперссылка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>false</MultiLine>
+					<ContextMenu name="СсылкиУРЛКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="СсылкиУРЛРасширеннаяПодсказка" id="35"/>
+				</InputField>
+				<CheckBoxField name="СсылкиЗаблокировано" id="16">
+					<DataPath>Объект.Гиперссылки.Заблокировано</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СсылкиЗаблокированоКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="СсылкиЗаблокированоРасширеннаяПодсказка" id="36"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+		<InputField name="Комментарий" id="7">
+			<DataPath>Объект.Комментарий</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="37"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Каналы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
