@@ -38,12 +38,12 @@
 		<Metadata name="CommonCommand.Публикации.CommandModule" id="693b2bcd-4a80-4a09-9ee8-81434603eaec.2" configVersion="cb8a1e8cfc36274dbfc5e695296be7f600000000"/>
 		<Metadata name="CommonForm.Параметры" id="7471231d-080f-4472-80c8-f0e1f98de97f" configVersion="96faa5cf50514f41a49ca648a5ef740a00000000"/>
 		<Metadata name="CommonForm.Параметры.Form" id="7471231d-080f-4472-80c8-f0e1f98de97f.0" configVersion="ef73d7fb069cd946a107c39a4190e80200000000"/>
-		<Metadata name="CommonModule.Инфостарт" id="99a4881f-dafc-4061-8c35-e5b8dca8d768" configVersion="d76c3e584b9c5a4eac5c6d027134f51d00000000"/>
-		<Metadata name="CommonModule.Инфостарт.Module" id="99a4881f-dafc-4061-8c35-e5b8dca8d768.0" configVersion="9bcb0cce9a6e904196ad529ec316c81700000000"/>
+		<Metadata name="CommonModule.Инфостарт" id="99a4881f-dafc-4061-8c35-e5b8dca8d768" configVersion="b2e3b67ce73a9749adadec2707ef974900000000"/>
+		<Metadata name="CommonModule.Инфостарт.Module" id="99a4881f-dafc-4061-8c35-e5b8dca8d768.0" configVersion="3408e9ffba3bac4790aeb5946a63c3b300000000"/>
 		<Metadata name="CommonModule.НаКлиенте" id="e12bde0c-c373-4804-af05-2375d06d8c69" configVersion="488e71ebd19da247b37d7f14094f36fc00000000"/>
 		<Metadata name="CommonModule.НаКлиенте.Module" id="e12bde0c-c373-4804-af05-2375d06d8c69.0" configVersion="f84ef4326eab7349b026a921ab56121e00000000"/>
-		<Metadata name="CommonModule.Регламент" id="cd0652d9-1318-4118-af1d-748e93222a32" configVersion="a564218283994e40a22fb84f70165ec500000000"/>
-		<Metadata name="CommonModule.Регламент.Module" id="cd0652d9-1318-4118-af1d-748e93222a32.0" configVersion="e68c669eca577b45ae1c20cae54455ec00000000"/>
+		<Metadata name="CommonModule.Регламент" id="cd0652d9-1318-4118-af1d-748e93222a32" configVersion="fb136382f455af4b9c9c01fb82211e6f00000000"/>
+		<Metadata name="CommonModule.Регламент.Module" id="cd0652d9-1318-4118-af1d-748e93222a32.0" configVersion="2b799eca0a5353429244cd3b7664c36000000000"/>
 		<Metadata name="CommonPicture.Инфостарт" id="1fae1dd9-1b68-4d08-b264-4fe6913f9607" configVersion="549dfa9342b67f4ca67504e492c5c65e00000000"/>
 		<Metadata name="CommonPicture.Инфостарт.Picture" id="1fae1dd9-1b68-4d08-b264-4fe6913f9607.0" configVersion="08ba0699a465a447abea1f1d6a39d8b700000000"/>
 		<Metadata name="CommonPicture.Инфостарт0" id="4c785f7a-f2b7-410e-8715-55de0439e694" configVersion="140f16670aa7be4ab1c810ba4ac6975d00000000"/>
