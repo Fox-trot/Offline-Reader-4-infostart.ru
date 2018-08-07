@@ -4,6 +4,9 @@
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -28,6 +31,53 @@
 			<MultiLine>false</MultiLine>
 			<ContextMenu name="ГиперссылкаПубликацииКонтекстноеМеню" id="19"/>
 			<ExtendedTooltip name="ГиперссылкаПубликацииРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="ПериодОбновления" id="38">
+			<DataPath>Объект.ПериодОбновления</DataPath>
+			<SpinButton>true</SpinButton>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>15</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">15</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>30</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">30</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>60</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">60</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ПериодОбновленияКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ПериодОбновленияРасширеннаяПодсказка" id="40"/>
 		</InputField>
 		<Table name="Ссылки" id="9">
 			<Representation>List</Representation>
