@@ -23,7 +23,7 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
 			<DefaultForm>CommonForm.Параметры</DefaultForm>
 			<ExtendedPresentation/>
 			<Explanation/>

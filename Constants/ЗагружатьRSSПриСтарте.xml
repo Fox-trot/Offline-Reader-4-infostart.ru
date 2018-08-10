@@ -1,32 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<Constant uuid="c65d9e26-56f4-43e8-b33c-55710088cb26">
+	<Constant uuid="bd3a09b0-0052-4e63-991e-3d4d8781447a">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.ОтметитьКакПрочтенноеЧерезСек" category="Manager">
-				<xr:TypeId>8a4d43a6-20d6-4f05-9e98-65dbc7823890</xr:TypeId>
-				<xr:ValueId>4b630006-c3cb-4d6c-a33f-fc392045be9e</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ЗагружатьRSSПриСтарте" category="Manager">
+				<xr:TypeId>498abda6-bbd0-4341-916d-13c992a9f573</xr:TypeId>
+				<xr:ValueId>75d98347-e9a4-4af1-941e-5e66966ab52d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.ОтметитьКакПрочтенноеЧерезСек" category="ValueManager">
-				<xr:TypeId>3966a086-7275-411d-a85c-35b61d834ae7</xr:TypeId>
-				<xr:ValueId>28d2848a-2369-4520-8cb9-35c024ef9384</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.ЗагружатьRSSПриСтарте" category="ValueManager">
+				<xr:TypeId>ebeb7605-8a24-4ca1-bbba-659012466740</xr:TypeId>
+				<xr:ValueId>12b992a5-d135-45e7-b1ec-6af056ed3a8f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОтметитьКакПрочтенноеЧерезСек</Name>
+			<Name>ЗагружатьRSSПриСтарте</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отметить как прочтенное через (сек)</v8:content>
+					<v8:content>Загружать RSS При старте</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>2</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 			<UseStandardCommands>false</UseStandardCommands>
 			<DefaultForm>CommonForm.Параметры</DefaultForm>
@@ -40,7 +35,7 @@
 			<Mask/>
 			<MultiLine>false</MultiLine>
 			<ExtendedEdit>false</ExtendedEdit>
-			<MinValue xsi:type="xs:string">3</MinValue>
+			<MinValue xsi:nil="true"/>
 			<MaxValue xsi:nil="true"/>
 			<FillChecking>DontCheck</FillChecking>
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>

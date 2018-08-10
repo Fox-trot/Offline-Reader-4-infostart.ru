@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<CommandsVisibility>
-		<Command name="Constant.ВестиПротоколЗагрузки.StandardCommand.Open">
+		<Command name="100:d1810bf0-67c9-4b7c-a2fe-db2b9f7afd84">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ВестиПротоколЗагрузкиПодробно.StandardCommand.Open">
+		<Command name="100:9b96bdc4-e341-47bd-9e57-3967b13e0e95">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ЗагружатьТекстыПубликацийПриЗагрузке.StandardCommand.Open">
+		<Command name="100:6a67bc08-a6e9-4e80-8e49-f663615e3c00">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ОтметитьКакПрочтенноеЧерезСек.StandardCommand.Open">
+		<Command name="100:c65d9e26-56f4-43e8-b33c-55710088cb26">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

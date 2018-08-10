@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВестиПротоколЗагрузки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВестиПротоколЗагрузкиПодробно</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Параметры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЗагружатьRSSПриСтарте</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

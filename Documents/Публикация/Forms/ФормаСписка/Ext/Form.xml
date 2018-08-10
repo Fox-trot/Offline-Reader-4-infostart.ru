@@ -105,7 +105,6 @@
 				</LabelField>
 				<LabelField name="Канал" id="18">
 					<DataPath>Список.Канал</DataPath>
-					<Visible>false</Visible>
 					<ReadOnly>true</ReadOnly>
 					<ContextMenu name="КаналКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="КаналРасширеннаяПодсказка" id="34"/>
@@ -176,8 +175,14 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>Список.Date</Field>
+				<Field>Список.Number</Field>
+				<Field>Список.Posted</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.Автор</Field>
+				<Field>Список.Заголовок</Field>
+				<Field>Список.Канал</Field>
 				<Field>Список.Описание</Field>
+				<Field>Список.ТекстСтатьи</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
