@@ -48,7 +48,7 @@
 		<Metadata name="CommonPicture.Инфостарт.Picture" id="1fae1dd9-1b68-4d08-b264-4fe6913f9607.0" configVersion="08ba0699a465a447abea1f1d6a39d8b700000000"/>
 		<Metadata name="CommonPicture.Инфостарт0" id="4c785f7a-f2b7-410e-8715-55de0439e694" configVersion="140f16670aa7be4ab1c810ba4ac6975d00000000"/>
 		<Metadata name="CommonPicture.Инфостарт0.Picture" id="4c785f7a-f2b7-410e-8715-55de0439e694.0" configVersion="92aef6b53f22ee43943214c4c0cf055f00000000"/>
-		<Metadata name="Configuration.Инфостарт" id="91a82461-041a-43ac-a41c-4a4fa35eb1a0" configVersion="01c38e6f2bac1f43be54221403f7f0e000000000"/>
+		<Metadata name="Configuration.Инфостарт" id="91a82461-041a-43ac-a41c-4a4fa35eb1a0" configVersion="95caa6edf3c46843a2e15ee087d8484e00000000"/>
 		<Metadata name="Configuration.Инфостарт.HomePageWorkArea" id="4f5b6207-2c97-47e0-880f-19c5f522201e.8" configVersion="b503d88f2d5b6d42b2721d335e5967c100000000"/>
 		<Metadata name="Configuration.Инфостарт.MainSectionCommandInterface" id="4f5b6207-2c97-47e0-880f-19c5f522201e.9" configVersion="2afa6158ae801248b95e3df3fdfbb0ac00000000"/>
 		<Metadata name="Configuration.Инфостарт.ManagedApplicationModule" id="4f5b6207-2c97-47e0-880f-19c5f522201e.6" configVersion="2f6db8901285664abb702ffb1aa4ebc900000000"/>
@@ -62,8 +62,8 @@
 		<Metadata name="DataProcessor.ЗагрузкаRSS" id="497fdf82-a83a-4c54-88a8-41f397f8dd52" configVersion="eaec5fef65801c4ea4b543d6dae91b9d00000000">
 			<Metadata name="DataProcessor.ЗагрузкаRSS.Attribute.Канал" id="5cc94e92-97dc-45dd-bfe7-187986510e74"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗагрузкаRSS.Form.Форма" id="c60db68a-b00f-45a8-b1ca-8170e9da0f91" configVersion="df4ec4e1e257414bafe681c3b0b7077000000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаRSS.Form.Форма.Form" id="c60db68a-b00f-45a8-b1ca-8170e9da0f91.0" configVersion="93353df1ae5b014eb2677083504f2eb700000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаRSS.Form.Форма" id="c60db68a-b00f-45a8-b1ca-8170e9da0f91" configVersion="951151ae5064774f81106c69e2cabfdf00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаRSS.Form.Форма.Form" id="c60db68a-b00f-45a8-b1ca-8170e9da0f91.0" configVersion="90f16105081cc6418f507ba0cfd8aac900000000"/>
 		<Metadata name="Document.Публикация" id="fd2fbf63-9156-4db5-ab3e-33ec0521d3cd" configVersion="257296bcc8f8754dab04c9e377e6810300000000">
 			<Metadata name="Document.Публикация.Attribute.Автор" id="2b5a77f6-bc9a-485d-8be9-b4c11e4bc4b3"/>
 			<Metadata name="Document.Публикация.Command.ЗагрузитьТекстСтатьи" id="329e19bd-42df-4964-9056-cc4074cf2e26"/>
