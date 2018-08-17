@@ -50,10 +50,8 @@
 				<InputField name="ТипГрафика" id="3">
 					<DataPath>ТипГрафика</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<ChoiceButton>true</ChoiceButton>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>false</OpenButton>
+					<DropListButton>true</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
 					<ListChoiceMode>true</ListChoiceMode>
 					<QuickChoice>true</QuickChoice>
 					<ChooseType>false</ChooseType>
@@ -130,6 +128,7 @@
 					<ExtendedTooltip name="ТипГрафикаРасширеннаяПодсказка" id="10"/>
 					<Events>
 						<Event name="OnChange">ТипГрафикаПриИзменении</Event>
+						<Event name="Opening">ТипГрафикаОчистка</Event>
 						<Event name="Clearing">ТипГрафикаОчистка</Event>
 					</Events>
 				</InputField>

@@ -84,13 +84,6 @@
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="30"/>
 				</LabelField>
-				<LabelField name="Номер" id="6">
-					<DataPath>Список.Number</DataPath>
-					<Visible>false</Visible>
-					<ReadOnly>true</ReadOnly>
-					<ContextMenu name="НомерКонтекстноеМеню" id="7"/>
-					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="31"/>
-				</LabelField>
 				<LabelField name="Автор" id="8">
 					<DataPath>Список.Автор</DataPath>
 					<ReadOnly>true</ReadOnly>
@@ -174,15 +167,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Date</Field>
-				<Field>Список.Number</Field>
-				<Field>Список.Posted</Field>
 				<Field>Список.Ref</Field>
-				<Field>Список.Автор</Field>
-				<Field>Список.Заголовок</Field>
-				<Field>Список.Канал</Field>
 				<Field>Список.Описание</Field>
-				<Field>Список.ТекстСтатьи</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
