@@ -492,33 +492,6 @@
 					<Shortcut/>
 				</Properties>
 			</Command>
-			<Command uuid="d09f2081-6e80-4744-b36e-911685c37fe6">
-				<Properties>
-					<Name>ОткрытьВБраузере</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Открыть в обозревателе</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.Публикация</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Открыть в обозревателе по умолчанию</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Picture/>
-					<Shortcut/>
-				</Properties>
-			</Command>
 			<Command uuid="f675acdb-09cd-40dc-a802-830bce12c4f1">
 				<Properties>
 					<Name>ДобавитьВИзбранное</Name>

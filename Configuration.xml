@@ -149,6 +149,7 @@
 			<CommonAttribute>Комментарий</CommonAttribute>
 			<ScheduledJob>ЗагрузкаRSS</ScheduledJob>
 			<CommonCommand>Публикации</CommonCommand>
+			<CommonCommand>ОткрытьВБраузере</CommonCommand>
 			<Constant>ЗагружатьТекстыПубликацийПриЗагрузке</Constant>
 			<Constant>ОтметитьКакПрочтенноеЧерезСек</Constant>
 			<Constant>ВестиПротоколЗагрузки</Constant>

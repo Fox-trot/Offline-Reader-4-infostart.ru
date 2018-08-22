@@ -43,9 +43,7 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
-				<Autofill>false</Autofill>
-			</AutoCommandBar>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"/>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="20"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="21">
 				<AdditionSource>
@@ -95,12 +93,6 @@
 					<ReadOnly>true</ReadOnly>
 					<ContextMenu name="ЗаголовокКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="33"/>
-				</LabelField>
-				<LabelField name="Канал" id="18">
-					<DataPath>Список.Канал</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<ContextMenu name="КаналКонтекстноеМеню" id="19"/>
-					<ExtendedTooltip name="КаналРасширеннаяПодсказка" id="34"/>
 				</LabelField>
 				<LabelField name="Описание" id="14">
 					<DataPath>Список.Описание</DataPath>

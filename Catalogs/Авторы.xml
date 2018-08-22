@@ -335,33 +335,6 @@
 		<ChildObjects>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
-			<Command uuid="9e311887-d7f9-4a8b-ab3a-3ddfd75e3199">
-				<Properties>
-					<Name>ОткрытьВБраузере</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Открыть в обозревателе</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:CatalogRef.Авторы</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Открыть в обозревателе по умолчанию</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Picture/>
-					<Shortcut/>
-				</Properties>
-			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
