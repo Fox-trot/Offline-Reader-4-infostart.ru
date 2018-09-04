@@ -224,9 +224,10 @@
 						<dcsset:item xsi:type="dcsset:StructureItemGroup">
 							<dcsset:groupItems>
 								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:use>false</dcsset:use>
 									<dcsset:field>Дата</dcsset:field>
 									<dcsset:groupType>Items</dcsset:groupType>
-									<dcsset:periodAdditionType>Week</dcsset:periodAdditionType>
+									<dcsset:periodAdditionType>Month</dcsset:periodAdditionType>
 									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 								</dcsset:item>
@@ -248,6 +249,9 @@
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
 		</Attribute>
 		<Attribute name="Пионер" id="4">
 			<Title>

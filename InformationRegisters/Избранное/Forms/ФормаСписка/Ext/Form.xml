@@ -3,15 +3,17 @@
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="ФормаЗагрузитьТекстСтатьи" id="34">
+			<Button name="ФормаДокументПубликацияЗагрузитьТекстСтатьи" id="36">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ЗагрузитьТекстСтатьи</CommandName>
-				<ExtendedTooltip name="ФормаЗагрузитьТекстСтатьиРасширеннаяПодсказка" id="35"/>
+				<CommandName>Document.Публикация.Command.ЗагрузитьТекстСтатьи</CommandName>
+				<DataPath>Items.Список.CurrentData.Публикация</DataPath>
+				<ExtendedTooltip name="ФормаДокументПубликацияЗагрузитьТекстСтатьиРасширеннаяПодсказка" id="37"/>
 			</Button>
-			<Button name="ОткрытьВБраузере" id="32">
+			<Button name="ФормаОбщаяКомандаОткрытьВБраузере" id="38">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ОткрытьВБраузере</CommandName>
-				<ExtendedTooltip name="ОткрытьВБраузереРасширеннаяПодсказка" id="33"/>
+				<CommandName>CommonCommand.ОткрытьВБраузере</CommandName>
+				<DataPath>Items.Список.CurrentData.Публикация</DataPath>
+				<ExtendedTooltip name="ФормаОбщаяКомандаОткрытьВБраузереРасширеннаяПодсказка" id="39"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -74,6 +76,7 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
 			<Events>
+				<Event name="Selection">СписокВыбор</Event>
 				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
 			</Events>
 			<ChildItems>
@@ -163,12 +166,18 @@
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<MainTable>InformationRegister.Избранное</MainTable>
+				<GetInvisibleFieldPresentations>false</GetInvisibleFieldPresentations>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>Публикация.Дата</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
@@ -191,40 +200,9 @@
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
 		</Attribute>
 	</Attributes>
-	<Commands>
-		<Command name="ОткрытьВБраузере" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть в обозревателе</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть в браузере</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьВБраузере</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="ЗагрузитьТекстСтатьи" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить текст статьи</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить текст статьи</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗагрузитьТекстСтатьи</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-	</Commands>
 </Form>

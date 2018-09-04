@@ -25,6 +25,7 @@
 			<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="29"/>
 		</InputField>
 		<UsualGroup name="Шапка" id="19">
+			<ReadOnly>true</ReadOnly>
 			<EnableContentChange>true</EnableContentChange>
 			<Title>
 				<v8:item>
@@ -97,6 +98,7 @@
 			<ExtendedTooltip name="СодержаниеРасширеннаяПодсказка" id="25"/>
 		</FormattedDocumentField>
 		<UsualGroup name="Подвал" id="30">
+			<ReadOnly>true</ReadOnly>
 			<EnableContentChange>true</EnableContentChange>
 			<ToolTip>
 				<v8:item>
@@ -136,8 +138,8 @@
 				<v8:Type>cfg:DocumentObject.Публикация</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
-			<SavedData>true</SavedData>
 			<UseAlways>
+				<Field>Объект.DeletionMark</Field>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 		</Attribute>
