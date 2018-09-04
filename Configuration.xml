@@ -155,6 +155,7 @@
 			<Constant>ВестиПротоколЗагрузки</Constant>
 			<Constant>ВестиПротоколЗагрузкиПодробно</Constant>
 			<Constant>ЗагружатьRSSПриСтарте</Constant>
+			<Constant>ФорматироватьТекст</Constant>
 			<CommonForm>Параметры</CommonForm>
 			<Catalog>Авторы</Catalog>
 			<Catalog>Каналы</Catalog>

@@ -65,6 +65,34 @@
 			<DataPath>Содержание</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<TitleLocation>None</TitleLocation>
+			<CommandSet>
+				<ExcludedCommand>AlignCenter</ExcludedCommand>
+				<ExcludedCommand>AlignJustify</ExcludedCommand>
+				<ExcludedCommand>AlignLeft</ExcludedCommand>
+				<ExcludedCommand>AlignRight</ExcludedCommand>
+				<ExcludedCommand>BackColor</ExcludedCommand>
+				<ExcludedCommand>Bold</ExcludedCommand>
+				<ExcludedCommand>BulletedList</ExcludedCommand>
+				<ExcludedCommand>Char</ExcludedCommand>
+				<ExcludedCommand>CutToClipboard</ExcludedCommand>
+				<ExcludedCommand>DecreaseFontSize</ExcludedCommand>
+				<ExcludedCommand>DecreaseIndent</ExcludedCommand>
+				<ExcludedCommand>Font</ExcludedCommand>
+				<ExcludedCommand>Hyperlink</ExcludedCommand>
+				<ExcludedCommand>IncreaseFontSize</ExcludedCommand>
+				<ExcludedCommand>IncreaseIndent</ExcludedCommand>
+				<ExcludedCommand>Italic</ExcludedCommand>
+				<ExcludedCommand>LineSpacing</ExcludedCommand>
+				<ExcludedCommand>NumberedList</ExcludedCommand>
+				<ExcludedCommand>PasteFromClipboard</ExcludedCommand>
+				<ExcludedCommand>Picture</ExcludedCommand>
+				<ExcludedCommand>Print</ExcludedCommand>
+				<ExcludedCommand>Redo</ExcludedCommand>
+				<ExcludedCommand>Strikeout</ExcludedCommand>
+				<ExcludedCommand>TextColor</ExcludedCommand>
+				<ExcludedCommand>Underline</ExcludedCommand>
+				<ExcludedCommand>Undo</ExcludedCommand>
+			</CommandSet>
 			<ContextMenu name="СодержаниеКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="СодержаниеРасширеннаяПодсказка" id="25"/>
 		</FormattedDocumentField>
@@ -123,6 +151,9 @@
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
 		</Attribute>
 		<Attribute name="ВремяСтарт" id="3">
 			<Title>

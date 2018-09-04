@@ -79,18 +79,28 @@
 					<DataPath>Список.Date</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ReadOnly>true</ReadOnly>
+					<AutoCellHeight>true</AutoCellHeight>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Номер" id="38">
+					<DataPath>Список.Number</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<AutoCellHeight>true</AutoCellHeight>
+					<ContextMenu name="НомерКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="40"/>
 				</LabelField>
 				<LabelField name="Автор" id="8">
 					<DataPath>Список.Автор</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<AutoCellHeight>true</AutoCellHeight>
 					<ContextMenu name="АвторКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="32"/>
 				</LabelField>
 				<LabelField name="Заголовок" id="10">
 					<DataPath>Список.Заголовок</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<AutoCellHeight>true</AutoCellHeight>
 					<ContextMenu name="ЗаголовокКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="33"/>
 				</LabelField>
@@ -115,7 +125,6 @@
 			<DataPath>Содержание</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<TitleLocation>None</TitleLocation>
-			<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
 			<CommandSet>
 				<ExcludedCommand>AlignCenter</ExcludedCommand>
 				<ExcludedCommand>AlignJustify</ExcludedCommand>
@@ -125,7 +134,6 @@
 				<ExcludedCommand>Bold</ExcludedCommand>
 				<ExcludedCommand>BulletedList</ExcludedCommand>
 				<ExcludedCommand>Char</ExcludedCommand>
-				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 				<ExcludedCommand>CutToClipboard</ExcludedCommand>
 				<ExcludedCommand>DecreaseFontSize</ExcludedCommand>
 				<ExcludedCommand>DecreaseIndent</ExcludedCommand>
@@ -138,11 +146,7 @@
 				<ExcludedCommand>NumberedList</ExcludedCommand>
 				<ExcludedCommand>PasteFromClipboard</ExcludedCommand>
 				<ExcludedCommand>Picture</ExcludedCommand>
-				<ExcludedCommand>Preview</ExcludedCommand>
-				<ExcludedCommand>Print</ExcludedCommand>
 				<ExcludedCommand>Redo</ExcludedCommand>
-				<ExcludedCommand>SaveAs</ExcludedCommand>
-				<ExcludedCommand>SelectAll</ExcludedCommand>
 				<ExcludedCommand>Strikeout</ExcludedCommand>
 				<ExcludedCommand>TextColor</ExcludedCommand>
 				<ExcludedCommand>Underline</ExcludedCommand>
@@ -167,6 +171,7 @@
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<MainTable>Document.Публикация</MainTable>
+				<GetInvisibleFieldPresentations>false</GetInvisibleFieldPresentations>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -178,6 +183,10 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Дата</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
@@ -215,10 +224,9 @@
 						<dcsset:item xsi:type="dcsset:StructureItemGroup">
 							<dcsset:groupItems>
 								<dcsset:item xsi:type="dcsset:GroupItemField">
-									<dcsset:use>false</dcsset:use>
 									<dcsset:field>Дата</dcsset:field>
 									<dcsset:groupType>Items</dcsset:groupType>
-									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionType>Week</dcsset:periodAdditionType>
 									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 								</dcsset:item>

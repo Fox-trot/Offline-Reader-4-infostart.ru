@@ -127,7 +127,6 @@
 				<ExcludedCommand>Bold</ExcludedCommand>
 				<ExcludedCommand>BulletedList</ExcludedCommand>
 				<ExcludedCommand>Char</ExcludedCommand>
-				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 				<ExcludedCommand>CutToClipboard</ExcludedCommand>
 				<ExcludedCommand>DecreaseFontSize</ExcludedCommand>
 				<ExcludedCommand>DecreaseIndent</ExcludedCommand>
@@ -140,11 +139,7 @@
 				<ExcludedCommand>NumberedList</ExcludedCommand>
 				<ExcludedCommand>PasteFromClipboard</ExcludedCommand>
 				<ExcludedCommand>Picture</ExcludedCommand>
-				<ExcludedCommand>Preview</ExcludedCommand>
-				<ExcludedCommand>Print</ExcludedCommand>
 				<ExcludedCommand>Redo</ExcludedCommand>
-				<ExcludedCommand>SaveAs</ExcludedCommand>
-				<ExcludedCommand>SelectAll</ExcludedCommand>
 				<ExcludedCommand>Strikeout</ExcludedCommand>
 				<ExcludedCommand>TextColor</ExcludedCommand>
 				<ExcludedCommand>Underline</ExcludedCommand>

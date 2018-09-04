@@ -12,8 +12,16 @@
 			<Comment/>
 			<Group>FormCommandBarImportant</Group>
 			<Representation>Auto</Representation>
-			<ToolTip/>
-			<Picture/>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть публикации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DocumentJournal</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Shortcut/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CommandParameterType>

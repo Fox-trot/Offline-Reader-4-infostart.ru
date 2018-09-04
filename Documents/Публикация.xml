@@ -498,7 +498,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Добавить в избранное</v8:content>
+							<v8:content>Добавить в Избранное</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -509,7 +509,12 @@
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
-					<ToolTip/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавить в Избранное</v8:content>
+						</v8:item>
+					</ToolTip>
 					<Picture>
 						<xr:Ref>StdPicture.AddToFavorites</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>

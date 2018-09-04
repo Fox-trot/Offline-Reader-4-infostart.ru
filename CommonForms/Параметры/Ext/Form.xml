@@ -46,6 +46,12 @@
 			<ContextMenu name="ЗагружатьRSSПриСтартеКонтекстноеМеню" id="16"/>
 			<ExtendedTooltip name="ЗагружатьRSSПриСтартеРасширеннаяПодсказка" id="17"/>
 		</CheckBoxField>
+		<CheckBoxField name="ФорматироватьТекст" id="18">
+			<DataPath>НаборКонстант.ФорматироватьТекст</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ФорматироватьТекстКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ФорматироватьТекстРасширеннаяПодсказка" id="20"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="НаборКонстант" id="1">

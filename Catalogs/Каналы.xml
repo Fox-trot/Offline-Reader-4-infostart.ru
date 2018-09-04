@@ -343,8 +343,16 @@
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузить новые публикации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.ReadChanges</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<Shortcut/>
 				</Properties>
 			</Command>
@@ -365,8 +373,16 @@
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заблокировать канал</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.Stop</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<Shortcut/>
 				</Properties>
 			</Command>
@@ -387,7 +403,12 @@
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
-					<ToolTip/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разблокировать канал</v8:content>
+						</v8:item>
+					</ToolTip>
 					<Picture/>
 					<Shortcut/>
 				</Properties>
@@ -409,7 +430,12 @@
 					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
-					<ToolTip/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить все публикации канала</v8:content>
+						</v8:item>
+					</ToolTip>
 					<Picture>
 						<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
