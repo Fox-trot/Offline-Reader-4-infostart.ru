@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Fox-trot</Vendor>
-			<Version>1.1.6</Version>
+			<Version>1.1.7</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -123,7 +123,12 @@
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
-			<VendorInformationAddress/>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://infostart.ru/profile/131897/</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

@@ -39,18 +39,19 @@
 		<Metadata name="CommonForm.Параметры.Form" id="7471231d-080f-4472-80c8-f0e1f98de97f.0" configVersion="5e5faf730beb6244a09be66dc7392dff00000000"/>
 		<Metadata name="CommonModule.Инфостарт" id="99a4881f-dafc-4061-8c35-e5b8dca8d768" configVersion="3b2b54a4611cfb41b2557a6c76c735cc00000000"/>
 		<Metadata name="CommonModule.Инфостарт.Module" id="99a4881f-dafc-4061-8c35-e5b8dca8d768.0" configVersion="95a85bbbfa9a8d4c84f339b7d591d9b700000000"/>
-		<Metadata name="CommonModule.НаКлиенте" id="e12bde0c-c373-4804-af05-2375d06d8c69" configVersion="8b16209e5d1fe044b49ae093954f01fc00000000"/>
-		<Metadata name="CommonModule.НаКлиенте.Module" id="e12bde0c-c373-4804-af05-2375d06d8c69.0" configVersion="3197a931b81ef746953ae823af10c96e00000000"/>
+		<Metadata name="CommonModule.НаКлиенте" id="e12bde0c-c373-4804-af05-2375d06d8c69" configVersion="14c3f74dd7627343b75426373506d70900000000"/>
+		<Metadata name="CommonModule.НаКлиенте.Module" id="e12bde0c-c373-4804-af05-2375d06d8c69.0" configVersion="85fea9097509124984688f5bc58b360d00000000"/>
 		<Metadata name="CommonModule.Регламент" id="cd0652d9-1318-4118-af1d-748e93222a32" configVersion="e637bd257961f4439c7de0d272d867ff00000000"/>
 		<Metadata name="CommonModule.Регламент.Module" id="cd0652d9-1318-4118-af1d-748e93222a32.0" configVersion="39333d42be3b8d4e9bb4d9ea5713a1f400000000"/>
 		<Metadata name="CommonPicture.Инфостарт" id="1fae1dd9-1b68-4d08-b264-4fe6913f9607" configVersion="549dfa9342b67f4ca67504e492c5c65e00000000"/>
 		<Metadata name="CommonPicture.Инфостарт.Picture" id="1fae1dd9-1b68-4d08-b264-4fe6913f9607.0" configVersion="08ba0699a465a447abea1f1d6a39d8b700000000"/>
 		<Metadata name="CommonPicture.Инфостарт0" id="4c785f7a-f2b7-410e-8715-55de0439e694" configVersion="140f16670aa7be4ab1c810ba4ac6975d00000000"/>
 		<Metadata name="CommonPicture.Инфостарт0.Picture" id="4c785f7a-f2b7-410e-8715-55de0439e694.0" configVersion="92aef6b53f22ee43943214c4c0cf055f00000000"/>
-		<Metadata name="Configuration.Инфостарт" id="91a82461-041a-43ac-a41c-4a4fa35eb1a0" configVersion="b7041a01bb7f1845b2130017fe67504f00000000"/>
+		<Metadata name="Configuration.Инфостарт" id="91a82461-041a-43ac-a41c-4a4fa35eb1a0" configVersion="cf4e84fc0f7f8e46978f7179d0d252cb00000000"/>
 		<Metadata name="Configuration.Инфостарт.HomePageWorkArea" id="4f5b6207-2c97-47e0-880f-19c5f522201e.8" configVersion="b503d88f2d5b6d42b2721d335e5967c100000000"/>
 		<Metadata name="Configuration.Инфостарт.MainSectionCommandInterface" id="4f5b6207-2c97-47e0-880f-19c5f522201e.9" configVersion="2afa6158ae801248b95e3df3fdfbb0ac00000000"/>
 		<Metadata name="Configuration.Инфостарт.ManagedApplicationModule" id="4f5b6207-2c97-47e0-880f-19c5f522201e.6" configVersion="2f6db8901285664abb702ffb1aa4ebc900000000"/>
+		<Metadata name="Configuration.Инфостарт.MobileClientSign" id="4f5b6207-2c97-47e0-880f-19c5f522201e.d" configVersion="71317a413b92874d92b344994a0d3c2400000000"/>
 		<Metadata name="Constant.ВестиПротоколЗагрузки" id="d1810bf0-67c9-4b7c-a2fe-db2b9f7afd84" configVersion="2a6104d43dccf549addccf1c9c151fd400000000"/>
 		<Metadata name="Constant.ВестиПротоколЗагрузкиПодробно" id="9b96bdc4-e341-47bd-9e57-3967b13e0e95" configVersion="501d04efc56bff4bb7371cb46fa32ec100000000"/>
 		<Metadata name="Constant.ВестиПротоколЗагрузкиПодробно.ValueManagerModule" id="9b96bdc4-e341-47bd-9e57-3967b13e0e95.0" configVersion="01674daff46d534b8258597bee90324e00000000"/>
