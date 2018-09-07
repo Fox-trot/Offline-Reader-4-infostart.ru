@@ -33,6 +33,7 @@
 			<SearchStringLocation>None</SearchStringLocation>
 			<ViewStatusLocation>None</ViewStatusLocation>
 			<SearchControlLocation>None</SearchControlLocation>
+			<RefreshRequest>PullFromTop</RefreshRequest>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -43,7 +44,7 @@
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 			<RestoreCurrentRow>false</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
+			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
@@ -200,9 +201,6 @@
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 	</Attributes>
 </Form>

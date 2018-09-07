@@ -29,6 +29,7 @@
 			<SearchStringLocation>None</SearchStringLocation>
 			<ViewStatusLocation>None</ViewStatusLocation>
 			<SearchControlLocation>None</SearchControlLocation>
+			<RefreshRequest>PullFromTop</RefreshRequest>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -41,7 +42,7 @@
 			<TopLevelParent xsi:nil="true"/>
 			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
-			<UpdateOnDataChange>DontUpdate</UpdateOnDataChange>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3"/>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="20"/>
@@ -165,7 +166,10 @@
 			<UseAlways>
 				<Field>Список.Posted</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.Автор</Field>
+				<Field>Список.Канал</Field>
 				<Field>Список.Описание</Field>
+				<Field>Список.ТекстСтатьи</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -181,6 +185,7 @@
 							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>7e6221c1-d400-40a0-8af8-71e086b45c81</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
@@ -204,6 +209,26 @@
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>Шрифт</dcscor:parameter>
 									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Автор</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Автор.ПометкаУдаления</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#FF6600</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -249,9 +274,6 @@
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 		<Attribute name="Пионер" id="4">
 			<Title>
