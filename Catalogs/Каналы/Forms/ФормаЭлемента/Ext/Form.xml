@@ -43,19 +43,6 @@
 						<Presentation>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>15</v8:content>
-							</v8:item>
-						</Presentation>
-						<Value xsi:type="xs:decimal">15</Value>
-					</xr:Value>
-				</xr:Item>
-				<xr:Item>
-					<xr:Presentation/>
-					<xr:CheckState>0</xr:CheckState>
-					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-						<Presentation>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
 								<v8:content>30</v8:content>
 							</v8:item>
 						</Presentation>
@@ -73,6 +60,19 @@
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">60</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>120</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">120</Value>
 					</xr:Value>
 				</xr:Item>
 			</ChoiceList>
