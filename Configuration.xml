@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c145bee7-8dc3-4a76-ad77-a3ca87dfb720</xr:ObjectId>
+				<xr:ObjectId>0eeb0ee1-c406-4358-91d5-d4203ae94a3c</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Fox-trot</Vendor>
-			<Version>1.2.2</Version>
+			<Version>1.1.7</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -208,10 +208,10 @@
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Automatic</DataLockControlMode>
 			<ObjectAutonumerationMode>AutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>Use</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<ModalityUseMode>DontUse</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_18</CompatibilityMode>
+			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>

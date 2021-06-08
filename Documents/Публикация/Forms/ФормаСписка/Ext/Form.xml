@@ -16,7 +16,6 @@
 		<Table name="Список" id="1">
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
-			<DefaultItem>true</DefaultItem>
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<MultipleChoice>true</MultipleChoice>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
@@ -40,7 +39,7 @@
 				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 			</Period>
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<RestoreCurrentRow>true</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
 			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
@@ -75,7 +74,6 @@
 			<Events>
 				<Event name="Selection">СписокВыбор</Event>
 				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
-				<Event name="OnChange">СписокПриИзменении</Event>
 			</Events>
 			<ChildItems>
 				<LabelField name="Дата" id="4">
@@ -168,6 +166,8 @@
 			<UseAlways>
 				<Field>Список.Posted</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.Автор</Field>
+				<Field>Список.Канал</Field>
 				<Field>Список.Описание</Field>
 				<Field>Список.ТекстСтатьи</Field>
 			</UseAlways>
@@ -273,6 +273,17 @@
 			</Title>
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Пионер" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пионер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
